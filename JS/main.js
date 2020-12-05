@@ -1,10 +1,32 @@
 
 
+var count;
+for(count=0, count <+ 5, count ++){
+    alert(count);
+};
+
+/*
+var count = 0;
+while(count < 5){
+    console.log(count);
+    count = count + 1;
+}
+*/
+
+/*
+var idade = prompt ("Qual sua idade");
+if (idade >= 18){
+    alert ("maior idade");
+}else{
+    alert("menor idade");
+};
+*/
+
+/*
 var frutas = [{nome:"maçã", cor:"vermelha"}, {nome:"uva", cor:"roxa"} ]
 console.log(frutas);
 alert(frutas[1].nome);
-
-
+*/
 
 /*
 var fruta = {nome:"maçã", cor:"vermelha"};
@@ -17,7 +39,6 @@ alert(fruta.cor);
 //lista.pop()
 
 //console.log(lista[1]);
-
 
 //var nome = "Fran Costa";
 //var n1 = 5;
