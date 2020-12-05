@@ -1,9 +1,37 @@
 
+function soma(n1, n2){
+    return n1 + n2;
+}
 
+var validar = 0;
+function validaidade (idade){
+    if (idade >= 18){
+        validar = true
+    }else{
+        validar = false
+    }
+    return validar;
+}
+
+var idade = prompt ("Qual sua idade");
+validaidade (idade)
+console.log(validar);
+
+
+
+/*
+var d = new Date ();
+alert (d.getDay());
+alert (d.getHours());
+alert (d.getMinutes());
+*/
+
+/*
 var count;
-for(count=0, count <+ 5, count ++){
+for(count=0; count <+ 5; count ++){
     alert(count);
 };
+*/
 
 /*
 var count = 0;
