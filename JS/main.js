@@ -1,9 +1,14 @@
 
 
 function clicou(){
-    alert("Obrigado por clicar");
+    document.getElementById("agradecimento").innerHTML = <b>"Obrigado por clicar"</b>;
+    //console.log(document.getElementById("agradecimento"));
+    //alert("Obrigado por clicar");
 }
 
+function redirencionar(){
+    window.open("")
+}
 /*
 function soma(n1, n2){
     return n1 + n2;
