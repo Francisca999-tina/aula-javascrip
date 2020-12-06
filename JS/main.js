@@ -1,7 +1,7 @@
 
 
 function clicou(){
-    document.getElementById("Agradecimento").innerHTML= "<b>Obrigado por clicar</b>";
+    document.getElementById("Agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
     //console.log(document.getElementById("agradecimento"));
     //alert("Obrigado por clicar");
 }
@@ -9,8 +9,29 @@ function clicou(){
 function redirecionar(){
     //window.open("https://web.digitalinnovation.one/home");
     window.location.href = "https://web.digitalinnovation.one/home";
-
 }
+
+function trocar (elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    elemento.innerHTML = "Obrigado por passar o mouse";
+    //alert ("trocar texto");
+}
+
+function voltar (elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function load (){
+    alert ("pagina carregada");
+}
+
+function funcaochange (elemento){
+    console.log(elemento.value);
+}
+
+
+
 /*
 function soma(n1, n2){
     return n1 + n2;
