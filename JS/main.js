@@ -1,13 +1,15 @@
 
 
 function clicou(){
-    document.getElementById("agradecimento").innerHTML = <b>"Obrigado por clicar"</b>;
+    document.getElementById("Agradecimento").innerHTML= "<b>Obrigado por clicar</b>";
     //console.log(document.getElementById("agradecimento"));
     //alert("Obrigado por clicar");
 }
 
-function redirencionar(){
-    window.open("")
+function redirecionar(){
+    //window.open("https://web.digitalinnovation.one/home");
+    window.location.href = "https://web.digitalinnovation.one/home";
+
 }
 /*
 function soma(n1, n2){
