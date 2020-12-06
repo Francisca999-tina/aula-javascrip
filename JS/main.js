@@ -1,8 +1,16 @@
 
+
+function clicou(){
+    alert("Obrigado por clicar");
+}
+
+/*
 function soma(n1, n2){
     return n1 + n2;
 }
+*/
 
+/*
 var validar = 0;
 function validaidade (idade){
     if (idade >= 18){
@@ -16,8 +24,7 @@ function validaidade (idade){
 var idade = prompt ("Qual sua idade");
 validaidade (idade)
 console.log(validar);
-
-
+*/
 
 /*
 var d = new Date ();
